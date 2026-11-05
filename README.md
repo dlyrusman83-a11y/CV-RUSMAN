@@ -207,6 +207,8 @@ footer {
     <li>Mampu bekerja sama dalam kelompok</li>
     <li>Disiplin dan bertanggung jawab</li>
     <li>Mengoperasikan komputer</li>
+    <li>Kepemimpinan</li>
+    <li>Adaptasi</li>
   </ul>
 </section>
 
