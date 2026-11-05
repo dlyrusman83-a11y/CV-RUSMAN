@@ -138,7 +138,7 @@ footer {
 <div class="container">
 
 <header>
-  <img src="foto.jpg" alt="Foto Rusman Dly" class="foto">
+  <img src="IMG_20260205_230639_607.jpg" alt="Foto Rusman Dly" class="foto">
 
   <h1>RUSMAN DLY</h1>
   <p>Curriculum Vitae | Pelajar</p>
