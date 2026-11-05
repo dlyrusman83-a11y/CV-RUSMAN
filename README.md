@@ -119,7 +119,7 @@ footer {
 <div class="cv">
 
 <header>
-  <div class="foto">IMG_20260205_230639_607.jpg/div>
+  <div class="foto">IMG_20260205_230639_607.jpg</div>
   <h1>RUSMAN DLY</h1>
   <p>Curriculum Vitae | Pelajar</p>
 </header>
