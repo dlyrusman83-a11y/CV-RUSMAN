@@ -196,6 +196,17 @@ footer {
   <ul>
     <li>Olahraga</li>
     <li>Menonton donghua dan drama</li>
+    <li>Memancing</li>
+    <li>Belajar Hal Baru Yang Saya Sukai</li>
+  </ul>
+</section>
+
+<section>
+  <h2>💡 Kemampuan</h2>
+  <ul>
+    <li>Mampu bekerja sama dalam kelompok</li>
+    <li>Disiplin dan bertanggung jawab</li>
+    <li>Mengoperasikan komputer</li>
   </ul>
 </section>
 
