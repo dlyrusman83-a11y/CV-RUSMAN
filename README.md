@@ -150,7 +150,7 @@ footer {
   <ul>
     <li>Olahraga</li>
     <li>Menonton Donghua/Drama</li>
-    <li>Belajar hal baru</li>
+    <li>Belajar hal baru yang saya sukai</li>
   </ul>
 </section>
 
