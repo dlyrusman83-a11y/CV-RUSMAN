@@ -130,9 +130,9 @@ footer {
     <div>Nama: RUSMAN DLY</div>
     <div>Kelas: XII</div>
     <div>Jurusan: TKJ</div>
-    <div>Sekolah: SMK N 2 PANYABUNGAN</div>
-    <div>Tempat, SUKAMAKMUR: 18-8-2008</div>
-    <div>Alamat: SUKAMAKMUR</div>
+    <div>Sekolah: Smk N 2 Panyabungan</div>
+    <div>Tempat,Tgl.L:Sukamakmur:18-8-2008</div>
+    <div>Alamat: Sukamakmur</div>
   </div>
 </section>
 
@@ -148,8 +148,8 @@ footer {
 <section>
   <h2>⭐ Hobi</h2>
   <ul>
-    <li>OLAHRAGA</li>
-    <li>Menonton DONGHUA/DRAMA</li>
+    <li>Olahraga</li>
+    <li>Menonton Donghua/Drama</li>
     <li>Belajar hal baru</li>
   </ul>
 </section>
