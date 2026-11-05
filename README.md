@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV Pelajar</title>
+<title>CV Rusman Dly</title>
 
 <style>
 * {
@@ -14,125 +14,171 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #061a12;
-  color: #e8fff0;
-  padding: 25px;
+  background: #031b12;
+  color: #e4f5ec;
+  line-height: 1.7;
+  padding: 20px;
 }
 
-.cv {
-  max-width: 750px;
+.container {
+  max-width: 800px;
   margin: auto;
-  padding: 35px;
-  background: #10271d;
-  border: 1px solid #245c40;
+  background: #09251a;
+  border: 1px solid #245b42;
   border-radius: 20px;
-  box-shadow: 0 0 35px #00ff6630;
-  animation: muncul 1s ease;
+  overflow: hidden;
+  box-shadow: 0 10px 35px #0005;
 }
 
 header {
   text-align: center;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #356b4d;
+  padding: 35px 20px;
+  background: linear-gradient(135deg, #0d3927, #071e15);
+  border-bottom: 1px solid #245b42;
 }
 
 .foto {
-  width: 100px;
-  height: 100px;
-  margin: auto auto 15px;
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #4ade80;
-  background: #1c4932;
-  display: grid;
-  place-items: center;
-  font-size: 40px;
+  border: 4px solid #53e69b;
+  margin-bottom: 15px;
 }
 
 h1 {
-  color: #86efac;
-  font-size: 30px;
+  color: #53e69b;
+  font-size: clamp(25px, 6vw, 36px);
+  overflow-wrap: anywhere;
 }
 
 header p {
-  color: #b6d9c2;
-  margin-top: 8px;
+  color: #b6d8c6;
+  margin-top: 5px;
+}
+
+main {
+  padding: 25px;
 }
 
 section {
-  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 h2 {
-  color: #4ade80;
-  font-size: 18px;
-  margin-bottom: 12px;
+  color: #53e69b;
+  font-size: 23px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #245b42;
+  padding-bottom: 8px;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.item {
+  background: #143d2b;
+  border: 1px solid #245b42;
+  border-radius: 10px;
+  padding: 12px;
+  overflow-wrap: anywhere;
+}
+
+.item strong {
+  display: block;
+  color: #53e69b;
+  font-size: 14px;
+  margin-bottom: 4px;
 }
 
 p, li {
-  color: #d1e7d8;
-  line-height: 1.8;
+  overflow-wrap: anywhere;
 }
 
 ul {
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
-.info {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
-
-.info div {
-  background: #193b2a;
-  padding: 12px;
-  border-radius: 10px;
+li {
+  margin-bottom: 8px;
 }
 
 footer {
-  margin-top: 30px;
   text-align: center;
-  color: #86efac;
+  padding: 20px;
+  color: #8bb9a0;
+  border-top: 1px solid #245b42;
   font-size: 13px;
 }
 
-@keyframes muncul {
-  from {
-    opacity: 0;
-    transform: translateY(25px);
+@media (max-width: 480px) {
+  body {
+    padding: 12px;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@media (max-width: 500px) {
-  body { padding: 12px; }
-  .cv { padding: 22px; }
-  .info { grid-template-columns: 1fr; }
+  main {
+    padding: 18px;
+  }
+
+  .data {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
 }
 </style>
 </head>
 
 <body>
-<div class="cv">
+<div class="container">
 
 <header>
-  <div class="foto">IMG_20260205_230639_607.jpg</div>
+  <img src="foto.jpg" alt="Foto Rusman Dly" class="foto">
+
   <h1>RUSMAN DLY</h1>
   <p>Curriculum Vitae | Pelajar</p>
 </header>
 
+<main>
+
 <section>
   <h2>👤 Data Diri</h2>
-  <div class="info">
-    <div>Nama: RUSMAN DLY</div>
-    <div>Kelas: XII</div>
-    <div>Jurusan: TKJ</div>
-    <div>Sekolah: Smk N 2 Panyabungan</div>
-    <div>Tempat,Tgl.L:Sukamakmur:18-8-2008</div>
-    <div>Alamat: Sukamakmur</div>
+
+  <div class="data">
+    <div class="item">
+      <strong>Nama</strong>
+      Rusman Dly
+    </div>
+
+    <div class="item">
+      <strong>Kelas</strong>
+      XII
+    </div>
+
+    <div class="item">
+      <strong>Jurusan</strong>
+      Teknik Komputer dan Jaringan (TKJ)
+    </div>
+
+    <div class="item">
+      <strong>Sekolah</strong>
+      SMK Negeri 2 Panyabungan
+    </div>
+
+    <div class="item">
+      <strong>Tempat, Tanggal Lahir</strong>
+      Sukamakmur, 18 Agustus 2008
+    </div>
+
+    <div class="item">
+      <strong>Alamat</strong>
+      Sukamakmur
+    </div>
   </div>
 </section>
 
@@ -144,27 +190,19 @@ footer {
     mengembangkan kemampuan diri.
   </p>
 </section>
-    
+
 <section>
   <h2>⭐ Hobi</h2>
   <ul>
     <li>Olahraga</li>
-    <li>Menonton Donghua/Drama</li>
-    <li>Belajar hal baru yang saya sukai</li>
+    <li>Menonton donghua dan drama</li>
   </ul>
 </section>
 
-<section>
-  <h2>💡 Kemampuan</h2>
-  <ul>
-    <li>Mampu bekerja sama dalam kelompok</li>
-    <li>Disiplin dan bertanggung jawab</li>
-    <li>Mengoperasikan komputer</li>
-  </ul>
-</section>
+</main>
 
 <footer>
-  CV Pelajar • 2026
+  Curriculum Vitae — Rusman Dly
 </footer>
 
 </div>
