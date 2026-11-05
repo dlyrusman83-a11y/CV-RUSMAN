@@ -120,19 +120,19 @@ footer {
 
 <header>
   <div class="foto">🎓</div>
-  <h1>Nama Lengkap</h1>
+  <h1>RUSMAN DLY</h1>
   <p>Curriculum Vitae | Pelajar</p>
 </header>
 
 <section>
   <h2>👤 Data Diri</h2>
   <div class="info">
-    <div>Nama: Nama Lengkap</div>
-    <div>Kelas: XI</div>
-    <div>Jurusan: RPL</div>
-    <div>Sekolah: Nama Sekolah</div>
-    <div>Tempat, Tanggal Lahir: ...</div>
-    <div>Alamat: ...</div>
+    <div>Nama: RUSMAN DLY</div>
+    <div>Kelas: XII</div>
+    <div>Jurusan: TKJ</div>
+    <div>Sekolah: SMK N 2 PANYABUNGAN</div>
+    <div>Tempat, SUKAMAKMUR: 18-8-2008</div>
+    <div>Alamat: SUKAMAKMUR</div>
   </div>
 </section>
 
@@ -148,8 +148,8 @@ footer {
 <section>
   <h2>⭐ Hobi</h2>
   <ul>
-    <li>Bermain game</li>
-    <li>Menonton anime</li>
+    <li>OLAHRAGA</li>
+    <li>Menonton DONGHUA/DRAMA</li>
     <li>Belajar hal baru</li>
   </ul>
 </section>
